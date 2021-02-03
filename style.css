@@ -1,0 +1,107 @@
+header{
+    width:100%;
+    height:50px;
+    background-color:black;
+}
+
+header ul{
+    float:left;
+    width:100%;
+    margin-left:20px;
+}
+
+header ul li{   
+    color:white;
+    list-style:none;
+    float:left;
+    padding-right:5%;
+}
+
+.title{     /*大きい見出し*/
+    border-left:5px solid black;
+    border-bottom:1px solid black;
+    padding-left:2px;
+    width:100%;
+}
+
+.form_title {
+    border-left:4px solid red;
+    padding-left:10px;
+    margin-top:25px;
+    margin-left:10px;
+}
+
+form {
+    border:3px solid lightgray;
+    background-color:ghostwhite;
+    width:100%;
+}
+
+form div label {
+    padding-left:10px;
+}
+
+.submit {
+    background-color:gray;
+    color:white;
+}
+
+.kiji {
+    margin-bottom:10px;
+    padding:10px 10px;
+    background-color:ghostwhite;
+    border:3px lightgray solid;
+    width:100%;
+}
+
+.kiji h3 {
+    border-bottom:solid 2px lightgray;
+    padding-left:10px;
+}
+
+.contents {
+    margin:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+}
+
+.handlename {
+    font-size:12px;
+}
+
+
+
+
+
+.right h3{      /*右項の各見出し*/
+    border-bottom:1px dotted black;
+    padding-top:10px;
+}
+
+.right ul li{   /*右項の各項目*/
+    list-style:none;
+    padding-bottom:10px;
+    margin-left:-20px;
+}
+
+.left{      /*左のメインページレイアウト*/
+    float:left;
+    width:60%;
+    margin-right:50px;
+}
+
+.right{     /*右のメインページレイアウト*/
+    float:left;
+    width:37%;
+    height:1500px;
+}
+
+footer{     
+    clear:left;
+    width:100%;
+    height:50px;
+    text-align:center;
+    background-color:black;
+    color:white;
+    line-height:50px;
+}
